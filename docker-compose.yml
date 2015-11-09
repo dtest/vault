@@ -1,6 +1,6 @@
 vault:
   container_name: vault
-  image: dtest/vault
+  image: dtestops/vault
   volumes:
     - ./vault.hcl:/etc/vault.hcl
   links:
